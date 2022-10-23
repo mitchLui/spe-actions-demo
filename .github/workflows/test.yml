@@ -1,0 +1,10 @@
+name: Application CI Tests
+
+on: 
+  pull-request:
+    branches: [main]
+
+jobs:
+  test-application:
+
+    runs-on: ubuntu-latest
